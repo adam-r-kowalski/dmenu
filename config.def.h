@@ -7,11 +7,15 @@ static const char *fonts[] = {
 	"Caskaydia Cove Nerd Font:size=12"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
+
+static const char background[]      = "#1d2021";
+static const char foreground[]      = "#d4be98";
+
 static const char *colors[SchemeLast][2] = {
-	/*     fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#eeeeee", "#005577" },
-	[SchemeOut] = { "#000000", "#00ffff" },
+	               /*     fg        bg    */
+	[SchemeNorm] = { foreground, background },
+	[SchemeSel] =  { background, foreground },
+	[SchemeOut] =  { foreground, background },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
