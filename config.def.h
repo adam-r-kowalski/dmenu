@@ -4,12 +4,12 @@
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Caskaydia Cove Nerd Font:size=12"
+	"Sauce Code Pro Nerd Font:size=12"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
-static const char background[]      = "#1d2021";
-static const char foreground[]      = "#d4be98";
+static const char background[]      = "#ebdbb2";
+static const char foreground[]      = "#272727";
 
 static const char *colors[SchemeLast][2] = {
 	               /*     fg        bg    */
