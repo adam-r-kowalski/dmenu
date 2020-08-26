@@ -9,7 +9,7 @@ static const char *fonts[] = {
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
 static const char background[]      = "#1b2b34";
-static const char foreground[]      = "#6699cc";
+static const char foreground[]      = "#d8dee9";
 
 static const char *colors[SchemeLast][2] = {
 	               /*     fg        bg    */
