@@ -8,8 +8,8 @@ static const char *fonts[] = {
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
-static const char background[]      = "#272727";
-static const char foreground[]      = "#ebdbb2";
+static const char background[]      = "#1b2b34";
+static const char foreground[]      = "#ffffff";
 
 static const char *colors[SchemeLast][2] = {
 	               /*     fg        bg    */
